@@ -30,9 +30,9 @@ const ThemeDropDown = () => {
     <div className="relative">
       <button
         onClick={toggleDropdown}
-        className={`flex items-center justify-between w-full hover:bg-${colorTheme} rounded-md px-3 py-1.5 border border-${colorTheme} hover:border-${colorTheme} text-${colorTheme} font-semibold md:text-sm text-xs ${isDropdownOpen ? `bg-${colorTheme} text-white` : "bg-transparent"}`}
+        className={`flex items-center justify-between w-full hover:bg-${colorTheme} rounded-md px-3 py-1 border border-${colorTheme} hover:border-${colorTheme} text-${colorTheme} font-semibold md:text-sm text-xs ${isDropdownOpen ? `bg-${colorTheme} text-white` : "bg-transparent"}`}
       >
-        Color Theme
+        Change Theme
         <svg
           className="w-2.5 h-2.5 ms-2.5"
           aria-hidden="true"

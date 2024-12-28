@@ -11,7 +11,7 @@ export default {
   darkMode: 'class',
   safelist: [
     {
-      pattern: /(text|bg|border|hover:.*)/,
+      pattern: /(text|bg|border|hover)/,
     },
   ],
 }

@@ -2,11 +2,16 @@ import { createContext, useContext } from "react";
 
 export const TodoDataContext = createContext(
     {
+        userName: "User",
+        setUserName: () => { },
         TodoData: [
             {
                 todoId: 3,
                 todo: "Complete DSA",
                 completed: false,
+                priority: "low",
+                addDate: "",
+                endDate: "",
             }
         ],
         addTodo: (todo) => { },
