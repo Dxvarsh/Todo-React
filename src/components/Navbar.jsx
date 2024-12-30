@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className="bottom-nav flex items-center justify-center">
           <div className="flex gap-4 items-center">
             <NavLink
-              to="/Todo-React"
+              to="/Todo-React/"
               end
               className={({ isActive }) =>
                 `py-1 px-3 rounded-md md:text-sm text-xs font-semibold border ${
