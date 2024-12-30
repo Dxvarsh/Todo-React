@@ -15,7 +15,7 @@ const AddTodoForm = () => {
   const [formTodo, setFormTodo] = useState({
     todo: "",
     completed: false,
-    priority: "low",
+    priority: "Low",
   });
 
   const handleClick = (eve) => {
@@ -25,7 +25,7 @@ const AddTodoForm = () => {
   };
 
   return (
-    <form className="max-w-sm mx-auto">
+    <form className="max-w-sm mx-auto mb-6">
       <div className="mb-5">
         <label
           htmlFor="todoName"

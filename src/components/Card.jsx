@@ -17,9 +17,9 @@ const Card = ({ propTodo }) => {
   };
 
   const color =
-  propTodo.priority === "high"
+  propTodo.priority === "High"
       ? "red-400"
-      : propTodo.priority === "medium"
+      : propTodo.priority === "Medium"
       ? "yellow-400"
       : "green-400";
 
@@ -30,7 +30,7 @@ const Card = ({ propTodo }) => {
 
   return (
     <>
-      <div className="mt-5 relative p-4 bg-white dark:bg-neutral-900 shadow-md hover:shadow-lg rounded-lg w-full transition-all">
+      <div className="mb-5 relative p-4 bg-white dark:bg-neutral-900 shadow-md hover:shadow-lg rounded-lg w-full transition-all">
         <div className="flex gap-4 h-full">
           <div className="w-8 flex justify-center items-center h-full">
             <div

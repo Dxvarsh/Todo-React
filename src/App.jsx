@@ -8,7 +8,7 @@ const App = () => {
   const [theme, setTheme] = useState("light");
   const [colorTheme, setColorTheme] = useState("orange-500"); // default color theme is Orange
   const [userName, setUserName] = useState("User"); // default color theme is Orange
-
+  
   useEffect(() => {
     document.querySelector("html").classList.remove("light", "dark");
     document.querySelector("html").classList.add(theme);

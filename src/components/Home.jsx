@@ -4,7 +4,7 @@ import Routing from '../Routes/Routing'
 
 const Home = () => {
   return (
-    <div className='min-h-screen w-full bg-white dark:bg-neutral-950'>
+    <div id='home' className='min-h-screen w-full bg-white dark:bg-neutral-950 overflow-y-auto'>
         <Navbar/>
         <div className="container mx-auto p-4 min-h-full">
           <Routing />
